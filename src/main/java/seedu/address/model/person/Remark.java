@@ -4,8 +4,8 @@ import static java.util.Objects.requireNonNull;
 import static seedu.address.commons.util.AppUtil.checkArgument;
 
 /**
- * Represents a Person's address in the address book.
- * Guarantees: immutable; is valid as declared in {@link #isValidRemark(String)}
+ * Represents a Person's remark in the address book.
+ * Guarantees: immutable
  */
 public class Remark {
 
@@ -14,7 +14,7 @@ public class Remark {
     /**
      * Constructs an {@code Address}.
      *
-     * @param remark A valid remark.
+     * @param remark A remark.
      */
     public Remark(String remark) {
         requireNonNull(remark);
