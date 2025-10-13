@@ -159,10 +159,16 @@ public class LessonBuilder {
      * @return a fully constructed {@link Lesson} instance.
      */
     public Lesson build() {
-        Lesson lesson = new Lesson(subject, level, day, lt, rate);
+        Lesson lesson = new DummyLesson(subject, level, day, lt, rate);
         if (student != null) {
             lesson.addStudent(student);
         }
         return lesson;
+    }
+
+    public static class DummyLesson extends Lesson {
+        DummyLesson(Subject subject, Level level, Day day, LessonTime lt, Rate rate) {
+            super(subject, level, day, lt, rate);
+        }
     }
 }
