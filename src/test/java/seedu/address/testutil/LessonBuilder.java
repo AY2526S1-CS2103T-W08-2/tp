@@ -166,7 +166,7 @@ public class LessonBuilder {
         return lesson;
     }
 
-    public static class DummyLesson extends Lesson {
+    private static class DummyLesson extends Lesson {
         DummyLesson(Subject subject, Level level, Day day, LessonTime lt, Rate rate) {
             super(subject, level, day, lt, rate);
         }
