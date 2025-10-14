@@ -95,7 +95,7 @@ public class LessonTest {
     }
 
     @Test
-    public void equals_sameDayAndOverlappingTimes_returnsTrue() {
+    public void equals_sameDayAndOverlappingTimes_returnsFalse() {
         Lesson l1 = new LessonBuilder()
                 .withDay("1")
                 .withLessonTime("09:00", "10:30")
@@ -106,7 +106,7 @@ public class LessonTest {
                 .withLessonTime("09:30", "11:00")
                 .build();
 
-        assertTrue(l1.equals(l2));
+        assertNotEquals(l1, l2);
     }
 
     @Test

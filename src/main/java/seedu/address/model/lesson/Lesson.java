@@ -85,6 +85,13 @@ public class Lesson {
     }
 
     /**
+     * Returns the total amount to pay per lesson.
+     */
+    public float getAmountPerLesson() {
+        return getDuration().toHours() * rate.getRate();
+    }
+
+    /**
      * Adds a student to the student field and adds the address of the student in the address field
      * @param student The student to be added.
      */
@@ -96,6 +103,25 @@ public class Lesson {
 
     /**
      * Returns true if both lessons have the same day and their lesson times clash.
+     * This defines a stronger notion of time clashes between two lessons.
+     */
+    public boolean hasClash(Object other) {
+        if (other == this) {
+            return true;
+        }
+
+        // instanceof handles nulls
+        if (!(other instanceof Lesson)) {
+            return false;
+        }
+
+        Lesson otherLesson = (Lesson) other;
+        return day.getDayOfWeek().equals(otherLesson.day.getDayOfWeek())
+                && lessonTime.hasTimeClash(otherLesson.lessonTime);
+    }
+
+    /**
+     * Returns true if both lessons have the same day, lesson time, student, subject, level, rate and address.
      * This defines a stronger notion of equality between two lessons.
      */
     @Override
@@ -111,7 +137,12 @@ public class Lesson {
 
         Lesson otherLesson = (Lesson) other;
         return day.getDayOfWeek().equals(otherLesson.day.getDayOfWeek())
-                && lessonTime.hasTimeClash(otherLesson.lessonTime);
+                && lessonTime.equals(otherLesson.lessonTime)
+                && student.equals(otherLesson.student)
+                && subject.equals(otherLesson.subject)
+                && level.equals(otherLesson.level)
+                && rate.equals(otherLesson.rate)
+                && address.equals(otherLesson.address);
     }
 
     @Override
