@@ -62,7 +62,7 @@ public class LessonList {
 
     /**
      * Deletes a lesson from the lesson List.
-     * @param lesson
+     * @param lesson Lesson to be deleted.
      */
     public void deleteLesson(Lesson lesson) {
         int ind = lessons.indexOf(lesson);
