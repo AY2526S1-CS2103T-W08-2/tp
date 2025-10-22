@@ -5,6 +5,10 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'jekyll'
+gem "base64"                               # Ruby 3.4: not default anymore
 gem 'github-pages', group: :jekyll_plugins
+gem "csv"                                   # Ruby 3.4: not default anymore
+gem "logger"                                # Ruby 3.5+: won’t be default
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 gem 'webrick'
+gem 'bigdecimal'
