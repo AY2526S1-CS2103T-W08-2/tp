@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "tuiniverse-developer-guide": "Tuiniverse Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -145,6 +145,7 @@
         "quick-start": "Quick start",
         "familarisation": "Familarisation",
         "command-summary": "Command summary",
+        "user-interface-ui-overview": "User Interface (UI) Overview",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-student-add": "Adding a student: add",
@@ -174,7 +175,7 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "tuiniverse": "Tuiniverse"
       },
       "headingKeywords": {}
     },
