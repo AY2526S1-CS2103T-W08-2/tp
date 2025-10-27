@@ -141,7 +141,10 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
+        "introduction": "Introduction",
         "quick-start": "Quick start",
+        "familarisation": "Familarisation",
+        "command-summary": "Command summary",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-student-add": "Adding a student: add",
@@ -152,7 +155,8 @@
         "listing-all-unpaid-fees-list-unpaid": "Listing all unpaid fees: list.unpaid",
         "listing-all-overdue-fees-list-overdue": "Listing all overdue fees: list.overdue",
         "editing-a-person-edit": "Editing a person : edit",
-        "locating-students-by-name-find": "Locating students by name: find",
+        "searching-for-students-by-keyword-find": "Searching for students by keyword: find",
+        "list-all-lessons-of-a-student-view": "List all lessons of a student: view",
         "deleting-a-person-delete": "Deleting a person : delete",
         "deleting-a-lesson-delete-lesson": "Deleting a Lesson: delete.lesson",
         "clearing-all-entries-clear": "Clearing all entries : clear",
@@ -162,8 +166,7 @@
         "archiving-data-files-coming-in-v2-0": "Archiving data files [coming in v2.0]",
         "faq": "FAQ",
         "glossary": "Glossary",
-        "known-issues": "Known issues",
-        "command-summary": "Command summary"
+        "known-issues": "Known issues"
       },
       "headingKeywords": {}
     },
