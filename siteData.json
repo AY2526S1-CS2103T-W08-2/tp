@@ -97,7 +97,17 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-effort": "Appendix: Effort",
+        "difficulty-level": "Difficulty level",
+        "challenges-faced": "Challenges faced",
+        "effort-required": "Effort required",
+        "achievement-of-the-project": "Achievement of the project",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements",
+        "1-partial-payments": "1. Partial Payments",
+        "2-unselect-a-selected-student": "2. Unselect a selected student",
+        "3-adding-tags": "3. Adding tags",
+        "4-viewing-lessons-in-order": "4. Viewing lessons in order"
       },
       "headingKeywords": {}
     },
