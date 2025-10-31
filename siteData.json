@@ -115,7 +115,9 @@
         "4-viewing-lessons-in-order": "4. Viewing lessons in order",
         "5-duplicate-tags": "5. Duplicate tags",
         "6-custom-payment-amount": "6. Custom Payment amount",
-        "7-attendance-list": "7. Attendance list"
+        "7-attendance-list": "7. Attendance list",
+        "8-today-s-schedule-not-showing-student-name": "8. Today's Schedule Not Showing Student Name",
+        "9-add-edit-and-delete-lesson-ui": "9. Add, Edit, and Delete Lesson UI"
       },
       "headingKeywords": {}
     },
