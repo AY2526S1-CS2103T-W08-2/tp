@@ -157,6 +157,7 @@
     },
     {
       "src": "UserGuide.md",
+      "title": "User Guide",
       "headings": {
         "introduction": "Introduction",
         "quick-start": "Quick start",
