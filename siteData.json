@@ -53,7 +53,6 @@
         "implementation": "Implementation",
         "implemented-payment-feature": "[Implemented] Payment feature",
         "implemented-monthly-rollover-feature": "[Implemented] Monthly rollover feature",
-        "implemented-time-clash-feature": "[Implemented] Time clash feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
