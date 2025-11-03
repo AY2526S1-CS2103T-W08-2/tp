@@ -225,6 +225,19 @@
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
       "headingKeywords": {}
+    },
+    {
+      "src": "team/promist-moon.md",
+      "headings": {
+        "promist-moon": "Promist-Moon",
+        "overview": "Overview",
+        "summary-of-contributions": "Summary of Contributions",
+        "code-contributed": "Code contributed",
+        "enhancements-implemented": "Enhancements implemented",
+        "contributions-to-the-user-guide": "Contributions to the User Guide",
+        "contributions-to-the-developer-guide": "Contributions to the Developer Guide"
+      },
+      "headingKeywords": {}
     }
   ]
 }
