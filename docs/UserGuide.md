@@ -35,7 +35,7 @@ Windows| Follow the Java installation instructions [here](https://se-education.o
 Linux | Follow the Java installation instructions [here](https://se-education.org/guides/tutorials/javaInstallationLinux.html)
 
 
-2. Download the latest `.jar` file from [here](https://github.com/AY2526S1-CS2103T-W08-2/tp/releases/tag/v1.5.1).
+2. Download the latest `.jar` file from [here](https://github.com/AY2526S1-CS2103T-W08-2/tp/releases/tag/v1.6).
 
 3. Copy the file to the folder you want to use as the _home folder_ for your Tuiniverse app (e.g. `Desktop/Tuiniverse`).
 
